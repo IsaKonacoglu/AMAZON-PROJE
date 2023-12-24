@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -8,8 +8,7 @@ a {
   text-decoration: none;
   color: white;
 }
-
-html {
+html{
   scroll-behavior: smooth;
 }
 .navbar {
@@ -27,7 +26,7 @@ html {
   display: flex;
   align-items: center;
 }
-.logo img {
+.logo img{
   height: 50px;
   width: 100%;
 }
@@ -38,23 +37,23 @@ html {
   place-items: center;
   cursor: pointer;
 }
-.border:hover {
+.border:hover{
   border: 1px solid white;
 }
-.add-first {
+.add-first{
   color: #cccccc;
   font-size: 13.6px;
   margin-left: 3px;
 }
-.add-second {
+.add-second{
   font-size: 16px;
   margin-left: 3px;
 }
-.add-icon {
+.add-icon{
   display: flex;
   align-items: center;
 }
-.nav-search {
+.nav-search{
   display: flex;
   justify-content: space-evenly;
   width: 620px;
@@ -62,7 +61,7 @@ html {
   background-color: pink;
   border-radius: 4px;
 }
-.search-select {
+.search-select{
   background-color: #f3f3f3;
   width: 50px;
   text-align: center;
@@ -71,66 +70,67 @@ html {
   border: none;
   outline: none;
 }
-.search-input {
+.search-input{
   width: 100%;
   font-size: 16px;
   border: none;
   outline: none;
   text-indent: 5px;
+  
 }
-.search-icon {
+.search-icon{
   cursor: pointer;
   width: 45px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   font-size: 19.2px;
   background-color: #febd68;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   color: black;
 }
-.nav-search:hover {
+.nav-search:hover{
   border: 2px solid #febd68;
 }
-span {
+span{
   font-size: 11.2px;
   font-weight: 700;
 }
-.nav-cart i {
+.nav-cart i{
   font-size: 30px;
 }
-.nav-cart {
+.nav-cart{
   font-size: 13.6px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 3px;
 }
-.panel {
+.panel{
   height: 40px;
-  background-color: #222f3d;
-  color: white;
   display: flex;
+  background-color: #222F3E;
+  color: white;
   align-items: center;
   justify-content: space-evenly;
 }
-.panel-ops {
+.panel-ops{
   width: 70%;
   font-size: 14px;
 }
-.panel-ops p {
+.panel-ops p{
   display: inline-flex;
   height: 40px;
   padding: 0 3px;
   margin-left: 15px;
 }
-.panel-deals {
+.panel-deals{
   font-size: 15px;
   font-weight: 700;
   padding: 0 3px;
 }
-.hero-section {
+.hero-section{
   background-image: url("./images/hero_image.jpg");
   background-size: cover;
   height: 350px;
@@ -138,7 +138,7 @@ span {
   justify-content: center;
   align-items: flex-end;
 }
-.hero-msg {
+.hero-msg{
   background-color: white;
   color: black;
   height: 40px;
@@ -150,11 +150,12 @@ span {
   width: 80%;
   margin-bottom: 25px;
 }
-.hero-msg a {
-  color: #4f6468;
-  margin-left: 3px;
+.hero-msg a{
+  color: #007185;
+  
 }
 .shop-section {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -162,76 +163,79 @@ span {
 }
 .box {
   height: 400px;
-  width: 23%;
+  width: 23%;  
   background-color: white;
   padding: 20px 15px;
   margin-top: 15px;
 }
-
-.box-img {
+ .box-img{
   background-size: cover;
-  height: 300px;
   margin: 16px 0;
-}
-.box-content {
+  height: 300px;
+ }
+ .box-content{
   margin-left: 16px;
   margin-right: 16px;
-}
-.box-content p {
+ }
+ .box-content p{
   color: #007185;
-}
-.container {
+ }
+ .box-content h2{
+  font-size: 20px;
+ }
+ .container{
   background: #e4e4e4;
-}
-.title {
+ }
+ .title{
   display: flex;
   align-items: center;
   gap: 10px;
   justify-content: start;
   padding: 15px 10px;
-}
-.title a {
+ }
+ .title a{
   color: #007185;
-}
-.title a:hover {
+ }
+
+ .title a:hover{
   text-decoration: underline;
-}
-.boxes {
+ }
+ .boxes{ 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 20px;
   margin: 15px 0;
-}
-.box1 {
+  }
+  .box1{
   height: 330px;
   background-color: white;
   padding: 10px 20px;
-}
-.box1-content {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 300px;
-  margin: 5px 0;
-}
-.image img {
-  width: 100%;
-  height: 250px;
-}
-.box1-content p {
-  color: #cc0a39;
-  font-size: 15px;
-}
-.box1-content p span {
-  background-color: #cc0a39;
-  color: white;
-  font-size: 15px;
-  margin-right: 6px;
-}
-footer {
+  }
+  .box1-content{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 300px;
+    margin: 5px 0;
+  }
+  .image img{
+    width: 100px;
+    height: 250px;
+  }
+  .box1-content p{
+    color: #cc0a39;
+    font-size: 15px;
+  }
+  .box1-content p span{
+    background-color: #cc0a39;
+    color: white;
+    font-size: 15px;
+    margin-right: 6px;
+  }
+  footer{
   margin-top: 15px;
-}
+  }
 .foot-panel1 {
   background-color: #364759;
   height: 50px;
@@ -241,79 +245,77 @@ footer {
   font-size: 14px;
   transition: opacity 0.3s;
 }
-.foot-panel1:hover {
-  opacity: 0.9;
+.foot-panel1:hover{
+  opacity: 0,9;
   cursor: pointer;
 }
-.foot-panel2 {
-  background-color: #222f3d;
+.foot-panel2{
+  background-color: #222F3d;
   color: white;
   height: 220px;
   display: flex;
   justify-content: space-evenly;
 }
-ul {
+ul{
   margin-top: 20px;
 }
-
-ul p {
+ul p{
   font-size: 18px;
   font-weight: 900;
 }
-ul a {
+ul a{
   display: block;
   font-size: 14px;
   margin-top: 10px;
   color: #dcdcdc;
 }
-.foot-panel2 ul a:hover {
+.foot-panel2 ul a:hover{
   transition: color 0.2s;
   color: #febd68;
 }
-.foot-panel3.logo {
+.foot-panel3 .logo{
   margin: auto;
   margin-top: 15px;
-  height: 50px;
   width: 100px;
   background-image: url("./images/amazon_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-.foot-panel3 {
-  background-color: #222f3d;
+.foot-panel3{
+  background-color: #222F3d;
   border-top: 0.5px solid white;
   display: flex;
   flex-direction: column;
 }
-.foot-panel3 ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 15px;
+.foot-panel3 ul{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+ margin-bottom: 15px;
 }
-.foot-panel3 ul a {
+.foot-panel3 ul a{
   font-size: 13.6px;
 }
-.foot-panel3 ul a:hover {
+.foot-panel3 ul a:hover{
   text-decoration: underline;
 }
-.foot-panel4 {
+.foot-panel4{
   background-color: #121b23;
   color: white;
   height: 80px;
   font-size: 12px;
   text-align: center;
 }
-.pages {
+.pages{
   padding-top: 25px;
 }
-.pages a {
+.pages a{
   margin-left: 10px;
 }
-.pages a:hover {
+.pages a:hover{
   text-decoration: underline;
 }
-.copyright {
+.copyright{
   padding-top: 10px;
 }
